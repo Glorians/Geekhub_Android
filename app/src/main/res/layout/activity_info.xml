@@ -22,7 +22,7 @@
             android:id="@+id/imageView"
             android:layout_width="150dp"
             android:layout_height="170dp"
-            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp"
             android:layout_marginTop="12dp"
             app:srcCompat="@drawable/my_photo1_crop" />
 
@@ -30,10 +30,10 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="50dp"
-            android:text="Беляев Алексей"
-            android:textSize="36dp" />
+            android:text="@string/my_name"
+            android:textSize="36sp" />
 
     </LinearLayout>
 
@@ -51,16 +51,16 @@
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
             android:text="О себе:"
-            android:textSize="14dp" />
+            android:textSize="14sp" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:text="Тот самый человек, который решил задачу с котлетами уже на следующие утро :D Ну а если серьезно, то я самый простой студент-программист, который уже перешёл на 4-тый курс и стремится познать true путь, разработчика android приложений."
-            android:textSize="16dp"
+            android:layout_height="wrap_content"
+            android:text="@string/my_info"
+            android:textSize="16sp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             />
@@ -82,7 +82,7 @@
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
+            android:layout_marginStart="30dp"
             android:text="Хобби:"
 
             />
@@ -94,8 +94,8 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="5dp"
             android:layout_marginRight="15dp"
-            android:text="Любитель иногда поиграть в комьютерные игры, посмотреть какой-нибудь фильм, или просто пойти погулять с друзьями."
-            android:textSize="16dp" />
+            android:text="@string/my_hobby"
+            android:textSize="16sp" />
 
     </LinearLayout>
 
